@@ -67,21 +67,6 @@ bertmodel, vocab  = get_pytorch_kobert_model()
 ```
 
 
-    Downloading:   0%|          | 0.00/371k [00:00<?, ?B/s]
-
-
-
-    Downloading:   0%|          | 0.00/244 [00:00<?, ?B/s]
-
-
-
-    Downloading:   0%|          | 0.00/432 [00:00<?, ?B/s]
-
-
-    /content/.cache/kobert_v1.zip[██████████████████████████████████████████████████]
-    /content/.cache/kobert_news_wiki_ko_cased-1087f8699e.spiece[██████████████████████████████████████████████████]
-
-
 ### 데이터셋 (추가적인) 전처리
 
 
@@ -1976,7 +1961,8 @@ loss_history
      array(9.366763e-06, dtype=float32),
      array(0.02021698, dtype=float32)
 
-```
+
+### 다중분류 테스트트
  
 
 ```python
