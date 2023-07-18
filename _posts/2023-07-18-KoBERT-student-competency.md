@@ -1962,7 +1962,7 @@ loss_history
      array(0.02021698, dtype=float32)
 
 
-### 다중분류 테스트트
+### 다중분류 테스트
  
 
 ```python
