@@ -170,7 +170,7 @@ log_interval = 200
 learning_rate =  5e-5
 ```
 
-###Train & Test 데이터셋
+# Train & Test 데이터셋
 
 
 ```python
@@ -1323,7 +1323,7 @@ for e in range(num_epochs):
     epoch 50 test acc 0.7309484649122806
 
 
-###train_history, test_history, loss_history 확인
+# train_history, test_history, loss_history 확인
 
 
 ```python
@@ -1978,7 +1978,6 @@ loss_history
 
 ```
 
-# 예측(다중분류) 테스트 
 
 ```python
 def predict(predict_sentence):
@@ -2020,3 +2019,4 @@ def predict(predict_sentence):
         print(">> 역량은 : " + test_eval[0] + " 입니다.")
         return test_eval[0]
 ```
+
