@@ -23,7 +23,7 @@ drive.mount('/content/drive')
 !pip install git+https://git@github.com/SKTBrain/KoBERT.git@master
 ```
 
-# 라이브러리 불러오기
+### 라이브러리 불러오기
 
 
 ```python
@@ -48,7 +48,7 @@ from transformers import BertModel
 device = torch.device("cuda:0")
 ```
 
-# 오버샘플링 사용을 위한 추가 패키지 설치
+### 오버샘플링 사용을 위한 추가 패키지 설치
 
 
 ```python
@@ -82,7 +82,7 @@ bertmodel, vocab  = get_pytorch_kobert_model()
     /content/.cache/kobert_news_wiki_ko_cased-1087f8699e.spiece[██████████████████████████████████████████████████]
 
 
-# 데이터셋 (추가적인) 전처리
+### 데이터셋 (추가적인) 전처리
 
 
 ```python
@@ -128,7 +128,7 @@ data = df_preprocessing(df2, column_list)
 data[:5]
 ```
 
-# 입력 데이터셋 토큰화 및 SMOTE 적용
+### 입력 데이터셋 토큰화 및 SMOTE 적용
 
 
 ```python
@@ -170,7 +170,7 @@ log_interval = 200
 learning_rate =  5e-5
 ```
 
-# Train & Test 데이터셋
+### Train & Test 데이터셋
 
 
 ```python
@@ -186,7 +186,7 @@ train_dataloader = torch.utils.data.DataLoader(data_train, batch_size=batch_size
 test_dataloader = torch.utils.data.DataLoader(data_test, batch_size=batch_size, num_workers=5, shuffle=True)
 ```
 
-# KoBERT 학습 모델 생성
+### KoBERT 학습 모델 생성
 
 
 ```python
@@ -267,7 +267,7 @@ gc.collect()
 torch.cuda.empty_cache()
 ```
 
-# KoBERT 모델 학습
+### KoBERT 모델 학습
 
 
 ```python
