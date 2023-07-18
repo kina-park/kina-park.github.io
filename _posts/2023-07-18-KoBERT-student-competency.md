@@ -1,3 +1,8 @@
+---
+title: "KoBERT를 이용한 학생 역량 점수 분류"
+layout: single
+---
+
 ```python
 from google.colab import drive
 drive.mount('/content/drive')
