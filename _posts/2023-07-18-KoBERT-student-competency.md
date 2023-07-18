@@ -9,7 +9,7 @@ drive.mount('/content/drive')
 ```
 
 
-# 라이브러리 설치 및 SKT KoBERT 파일 로드
+### 라이브러리 설치 및 SKT KoBERT 파일 로드
 
 
 ```python
