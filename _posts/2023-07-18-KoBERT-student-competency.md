@@ -56,7 +56,7 @@ device = torch.device("cuda:0")
 from imblearn.over_sampling import SMOTE
 ```
 
-###KoBERT 모델 선언
+### KoBERT 모델 선언
 
 
 ```python
@@ -1977,7 +1977,7 @@ loss_history
      array(0.02021698, dtype=float32)
 
 ```
-
+ 
 
 ```python
 def predict(predict_sentence):
