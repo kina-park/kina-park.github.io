@@ -8,10 +8,8 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 
-    Mounted at /content/drive
 
-
-###라이브러리 설치 및 SKT KoBERT 파일 로드
+# 라이브러리 설치 및 SKT KoBERT 파일 로드
 
 
 ```python
@@ -25,7 +23,7 @@ drive.mount('/content/drive')
 !pip install git+https://git@github.com/SKTBrain/KoBERT.git@master
 ```
 
-###라이브러리 불러오기
+# 라이브러리 불러오기
 
 
 ```python
@@ -50,7 +48,7 @@ from transformers import BertModel
 device = torch.device("cuda:0")
 ```
 
-###오버샘플링 사용을 위한 추가 패키지 설치
+# 오버샘플링 사용을 위한 추가 패키지 설치
 
 
 ```python
@@ -84,7 +82,7 @@ bertmodel, vocab  = get_pytorch_kobert_model()
     /content/.cache/kobert_news_wiki_ko_cased-1087f8699e.spiece[██████████████████████████████████████████████████]
 
 
-###데이터셋 (추가적인) 전처리
+# 데이터셋 (추가적인) 전처리
 
 
 ```python
@@ -130,7 +128,7 @@ data = df_preprocessing(df2, column_list)
 data[:5]
 ```
 
-###입력 데이터셋 토큰화 및 SMOTE 적용
+# 입력 데이터셋 토큰화 및 SMOTE 적용
 
 
 ```python
@@ -188,7 +186,7 @@ train_dataloader = torch.utils.data.DataLoader(data_train, batch_size=batch_size
 test_dataloader = torch.utils.data.DataLoader(data_test, batch_size=batch_size, num_workers=5, shuffle=True)
 ```
 
-###KoBERT 학습 모델 생성
+# KoBERT 학습 모델 생성
 
 
 ```python
@@ -269,7 +267,7 @@ gc.collect()
 torch.cuda.empty_cache()
 ```
 
-###KoBERT 모델 학습
+# KoBERT 모델 학습
 
 
 ```python
@@ -1976,6 +1974,49 @@ loss_history
      array(1.450436e-05, dtype=float32),
      array(0.01116514, dtype=float32),
      array(9.366763e-06, dtype=float32),
-     array(0.02021698, dtype=flo기
-!jupyter nbconvert --to markdown "/content/drive/MyDrive/Colab Notebooks/TEST/notebook_test.ipynb"
+     array(0.02021698, dtype=float32)
+
+```
+
+# 예측(다중분류) 테스트 
+
+```python
+def predict(predict_sentence):
+
+    data = [predict_sentence, '0']
+    dataset_another = [data]
+
+    another_test = BERTDataset(dataset_another, 0, 1, tok, vocab, max_len, True, False)
+    test_dataloader = torch.utils.data.DataLoader(another_test, batch_size=batch_size, num_workers=5)
+
+    model.eval()
+
+    for batch_id, (token_ids, valid_length, segment_ids, label) in enumerate(test_dataloader):
+        token_ids = token_ids.long().to(device)
+        segment_ids = segment_ids.long().to(device)
+
+        valid_length= valid_length
+        label = label.long().to(device)
+
+        out = model(token_ids, valid_length, segment_ids)
+
+
+        test_eval=[]
+        for i in out:
+            logits=i
+            logits = logits.detach().cpu().numpy()
+            print(logits)
+            if np.argmax(logits) == 0:
+                    test_eval.append("1")
+            elif np.argmax(logits) == 1:
+                test_eval.append("2")
+            elif np.argmax(logits) == 2:
+                test_eval.append("3")
+            elif np.argmax(logits) == 3:
+                test_eval.append("4")
+            elif np.argmax(logits) == 4:
+                test_eval.append("5")
+
+        print(">> 역량은 : " + test_eval[0] + " 입니다.")
+        return test_eval[0]
 ```
