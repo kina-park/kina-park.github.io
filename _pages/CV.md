@@ -1,5 +1,5 @@
 ---
-# layout: single 
+layout: posts
 title : "Curriculum Vitae"
 permalink: /CV/
 author_profile: true
