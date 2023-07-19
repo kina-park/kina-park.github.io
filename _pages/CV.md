@@ -1,10 +1,10 @@
 ---
-layout: categories  # 이게 중요하네. 그리고 파일명에는-archive 붙여주기
+layout: single  
 title : "Curriculum Vitae"
 permalink: /CV/
 author_profile: true
 sidebar_main: true
-toc: true
+toc: true 
 toc_label: " Table of Contents"
 toc_icon: "bookmark"
 breadcrumbs: false
