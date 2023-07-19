@@ -1,6 +1,7 @@
 ---
 title: "깃허브 블로그 첫 포스팅"
 layout: single
+# tags: 예시
 toc: true
 ---
 
