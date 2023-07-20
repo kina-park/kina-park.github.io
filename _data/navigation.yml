@@ -2,10 +2,8 @@
 main:
   - title: "CV"
     url: /CV/
-  - title: "Research"
-    url: /Research/
-  - title: "Projects"
-    url: /Projects/
+  - title: "Category"
+    url: /Category/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
