@@ -4,5 +4,5 @@ layout: single
 classes: wide
 toc: true
 categories: 
-  - 컨조인트 실험 설계
+  - conjoint experiment
 ---

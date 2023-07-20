@@ -3,6 +3,8 @@ title: "인과추론과 예측 방법론의 차이"
 layout: single
 classes: wide
 toc: true
+categories: 
+- Causal inference
 ---
 
 ### 1. 인과추론과 예측 방법론의 차이

@@ -3,7 +3,8 @@ title: "인과추론의 어려움과 인과추론의 전략"
 layout: single
 classes: wide
 toc: true
-categories: 인과추론
+categories: 
+- Causal inference
 ---
 
 ### 1. Everything is Endogenous 
@@ -17,9 +18,7 @@ categories: 인과추론
 ### 2. 다양한 인과추론 접근법 
 * Research design for causal inference
     * Randomized controlled trial, (Natural) Quasi-experiment, Local Average Treatment Effect(LATE)
-
 * Selection model (statistical modeling)
-
 * Causal graph (graphical modeling)
 
 * 실험적 연구방법론에 기반한 인과추론의 최대 단점은 다른 상황에서의 적용이 어렵다는 점
