@@ -3,8 +3,38 @@ title: "KoBERT를 이용한 학생 역량 점수 분류"
 layout: single
 classes: wide
 toc: true
-tags: NLP
+categories: NLP
 ---
+
+### 1. 서론
+* 최근 인공지능에 대한 교육학계의 관심이 높아지고 있다. 그 중 인공지능의 한 분야인 자연어처리는 ChatGPT의 등장으로 크게 주목 받고 있는 기술이다. 한편, 자연어처리와 관련해 교육학계에서는 이것의 교육적 활용에 대해 논의를 시작한 단계에 있으며, 자연어처리 기술을 적용해 교육 데이터를 분석한 연구는 다소 부족한 실정이다. 
+
+* 이에 본 연구는 딥러닝 기반의 KoBERT를 활용하여, 학생 수업 관찰기록 텍스트 데이터를 바탕으로 학생의 역량(자기관리, 대인관계, 시민, 문제해결역량) 점수를 예측하는 다중분류모델을 개발함으로써, 자연어처리 기술을 적용한 교육 연구의 저변을 확대하는 데 기여하고자 한다.
+
+### 2. BERT, KoBERT
+
+* BERT(Bidirectional Encoder Representations from Transformers)는 2018년 구글에서 발표한 임베딩 모델로서, 트랜스포머 모델을 기반으로 한다. 
+* BERT의 학습은 크게 사전 학습(pre-training)과 파인 튜닝(fine-tuning)의 두 단계로 진행되는데 이를 직관적으로 표현하면, 대용량의 언어 데이터를 바탕으로 이미 학습(사전 학습)된 모델을, 해결하고자 하는 목표에 맞게 미세 조정(파인 튜닝)하는 과정을 의미한다. 따라서, BERT는 파인 튜닝을 통해 적은 데이터와 짧은 시간으로 학습이 가능하다는 장점을 지닌다. 
+* 구체적으로, 사전 학습은 ‘마스크 언어 모델링(MLM)’과 ‘다음 문장 예측(NSP)’에 대한 학습으로 구성되며, 파인 튜닝은 다운스트림 태스크(예. 텍스트 분류, 질의 응답 등)의 성격에 따라 BERT 구조 뒤에 레이어를 추가하거나, 파라미터 조정을 통해 가중치를 업데이트 하는 과정을 포함한다(이진기, 2022; Ravichandiran, 2021). 
+* 본 연구에서는 SKTBrain에서 대규모의 한국어 말뭉치를 학습시킴으로써, 한국어에 특화되도록 개발한 BERT 모델인 KoBERT를 활용하였다. 
+
+### 3. 데이터 수집 ∙ 전처리 및 모델 학습  
+* 1) 데이터 수집 및 설명
+  * AI Hub에서 제공한 ‘학생 청소년 핵심역량분석 교육 데이터’를 사용하였다. 
+  * 원천 데이터는 다음과 같이 개별 데이터셋으로 구성되었다: (1) 학생 정보(성별, 지역, 학교급, 학년 등),  (2) 수업 정보(수업 성격, 과제 유형, 교과목정보 등),  (3) 학생관찰기록 텍스트 및 역량 별 점수 데이터셋. 
+  * 최종 분석을 위해 개별 데이터셋을 병합하고, 그 중 고등학생 데이터를 선별하였으며, 데이터 크기는 11,173건에 달했다.
+
+* 데이터 전처리
+
+### 4. 모델 평가
+
+
+### 5. 결론 
+* 본 연구는 교육적 맥락에서 KoBERT를 활용하여 다중분류모델을 개발하고, 약 73.45%의 비교적 높은 수준의 모델 정확도를 구현함으로써, KoBERT를 활용한 자연어처리 기술의 교육적 활용 가능성을 확대하였다는 점에서 의의가 있다. 
+* 최근 일부 해외 대학의 경우 신입생 선발과정에 있어 인공지능 도입을 시작하며, 국내에서도 관련 논의가 진행된 바 있는 가운데(권정민 외, 2021), 교사의 학생평가 데이터를 바탕으로 학생의 역량을 예측하는 기술은 입학과 관련한 대학기관의 의사결정에 실질적 기여를 할 수 있을 것으로 기대된다. 
+
+
+### Code
 
 ```python
 from google.colab import drive
@@ -12,7 +42,7 @@ drive.mount('/content/drive')
 ```
 
 
-### 라이브러리 설치 및 SKT KoBERT 파일 로드
+#### 라이브러리 설치 및 SKT KoBERT 파일 로드
 
 
 ```python
@@ -26,7 +56,7 @@ drive.mount('/content/drive')
 !pip install git+https://git@github.com/SKTBrain/KoBERT.git@master
 ```
 
-### 라이브러리 불러오기
+#### 라이브러리 불러오기
 
 
 ```python
@@ -51,7 +81,7 @@ from transformers import BertModel
 device = torch.device("cuda:0")
 ```
 
-### 오버샘플링 사용을 위한 추가 패키지 설치
+#### 오버샘플링 사용을 위한 추가 패키지 설치
 
 
 ```python
@@ -59,7 +89,7 @@ device = torch.device("cuda:0")
 from imblearn.over_sampling import SMOTE
 ```
 
-### KoBERT 모델 선언
+#### KoBERT 모델 선언
 
 
 ```python
@@ -70,7 +100,7 @@ bertmodel, vocab  = get_pytorch_kobert_model()
 ```
 
 
-### 데이터셋 (추가적인) 전처리
+#### 데이터셋 (추가적인) 전처리
 
 
 ```python
@@ -116,7 +146,7 @@ data = df_preprocessing(df2, column_list)
 data[:5]
 ```
 
-### 입력 데이터셋 토큰화 및 SMOTE 적용
+#### 입력 데이터셋 토큰화 및 SMOTE 적용
 
 
 ```python
@@ -158,7 +188,7 @@ log_interval = 200
 learning_rate =  5e-5
 ```
 
-### Train & Test 데이터셋
+#### Train & Test 데이터셋
 
 
 ```python
@@ -174,7 +204,7 @@ train_dataloader = torch.utils.data.DataLoader(data_train, batch_size=batch_size
 test_dataloader = torch.utils.data.DataLoader(data_test, batch_size=batch_size, num_workers=5, shuffle=True)
 ```
 
-### KoBERT 학습 모델 생성
+#### KoBERT 학습 모델 생성
 
 
 ```python
@@ -255,7 +285,7 @@ gc.collect()
 torch.cuda.empty_cache()
 ```
 
-### KoBERT 모델 학습
+#### KoBERT 모델 학습
 
 
 ```python
