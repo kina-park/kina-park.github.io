@@ -1,7 +1,7 @@
 ---
-title: "Research"
+title: "Category"
 layout: categories
-permalink: /Research/
+permalink: /Category/
 author_profile: true
 sidebar_main: true
 ---
