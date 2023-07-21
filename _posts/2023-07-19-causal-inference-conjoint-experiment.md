@@ -4,5 +4,5 @@ layout: single
 classes: wide
 toc: true
 categories: 
-  - conjoint experiment
+  - Conjoint experiment & Causal inference
 ---

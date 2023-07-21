@@ -4,7 +4,7 @@ layout: single
 classes: wide
 toc: true
 categories: 
-  - 난민 연구
+  - Moderated multiple regression
 ---
 
 
