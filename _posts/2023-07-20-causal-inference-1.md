@@ -26,6 +26,10 @@ categories:
 * 아니다
 * 당연히 인풋과 아웃풋의 관계가 연결되어 있는 만큼, 인과추론을 통해서 알게 된 원인변수에 대한 이해가 있으면, 그 원인 변수를 prediction에 활용하면 보다 안정적으로 predictive accuracy를 향상시키는 데 도움이 될 것이며, 반대로 어떤 인풋변수가 아웃풋 변수를 꾸준히 잘 예측한다면, 인과적 효과가 있을 확률(없을 수도 있음)이 조금 더 높다고 볼 수 있을 것
 
+### References
+인과추론의 데이터과학. (2022, June 14). [Bootcamp 1-1] 인과추론과 예측 방법론의 차이 [Video]. YouTube. [https://www.youtube.com/watch?v=PmoDo_ANg90&list=PLKKkeayRo4PV_6-nbBgmUNOSpG1OO49M3&index=2.][1]
+
+[1]: https://www.youtube.com/watch?v=PmoDo_ANg90&list=PLKKkeayRo4PV_6-nbBgmUNOSpG1OO49M3&index=2
 
 
 
