@@ -1,7 +1,6 @@
 ---
-title: "인과추론의 어려움과 인과추론의 전략"
+title: "[1-2] 인과추론의 어려움과 인과추론의 전략"
 layout: single
-classes: wide
 toc: true
 categories: 
 - Causal inference
@@ -11,13 +10,15 @@ categories:
 
 * 내생성은 인과추론을 어렵게 하는 근본적인 문제
 * 내생성이란 모든 것들이 복잡다기하게 상호 간 영향을 내생적으로 주고 받는 것 
-* 우리가 관심있는 원인 변수 이외에도 결과에 영향을 미치는 교란요인들이 서로 얽혀 있기 때문에 인과관계를 드러 내기가 어려
-이러한 내생성 문제를 해결하는 것이 causal inference. 대부분의 인과추론 방법론들이 내생성 문제를 극복하기 위해 발전됨.  
+* 우리가 관심있는 원인 변수 이외에도 결과에 영향을 미치는 교란요인들이 서로 얽혀 있기 때문에 인과관계를 드러 내기가 어려움. 
+* 이러한 내생성 문제를 해결하는 것이 causal inference. 대부분의 인과추론 방법론들이 내생성 문제를 극복하기 위해 발전됨.  
 * Endogeneity in various forms: (1) selection bias, (2) backdoor path, (3) Endogeneity in regression (correlation between error term and x's)
+<p align="center"><img src="/assets/images/endogeneity_varios_form.png" title="Endogeneity in various forms"/></p>
+사진 출처:  인과추론의 데이터과학. (2022, June 14). [Bootcamp 1-2] 인과추론의 어려움과 인과추론 전략 [Video]. YouTube. https://www.youtube.com/watch?v=luesQBhBBI4&list=PLKKkeayRo4PV_6-nbBgmUNOSpG1OO49M3&index=3.
 
 ### 2. 다양한 인과추론 접근법 
 * Research design for causal inference
-    * Randomized controlled trial, (Natural) Quasi-experiment, Local Average Treatment Effect(LATE)
+    * Randomized controlled trial(RCT), (Natural) Quasi-experiment, Local Average Treatment Effect(LATE)
 * Selection model (statistical modeling)
 * Causal graph (graphical modeling)
 

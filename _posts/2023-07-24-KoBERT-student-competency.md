@@ -35,7 +35,7 @@ breadcrumbs: false
   * 최종 분석을 위해 개별 데이터셋을 병합하고, 그 중 고등학생 데이터를 선별하였으며, 데이터 크기는 11,173건에 달했다.
 
 **2) 데이터 전처리**  
-<br>(1)피처 셀렉션 (Feature selection)<br/>
+<br>(1) 피처 셀렉션 (Feature selection)<br/>
 
 * 유용한 피처에 집중하여 모델의 성능을 높이고자, 학생관찰기록 텍스트 데이터(Student assessment)와 함께 수업 정보와 관련된 데이터 Program_category, Mission_category, Subject_category를 모델의 피처로 활용하였다. 
 

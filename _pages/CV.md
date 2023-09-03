@@ -31,6 +31,9 @@ English Department
 * **Journal papers, Domestic**
     * Jon, J.-E., & **Park, K***. (2023). Korean public’s attitude toward asylum seekers: Applying integrated threat theory and contact theory. Journal of Diaspora Studies, 17(1), 145-195. [[link][1]]
 
+* **Manuscripts submitted for publication, Domestic**
+    * **Park, K** & Jon, J.-E.* (2023). A study on the predictors of college students’ institutional commitment in online learning environment: Focusing on educational presence. Korean Journal of Educational Research
+
 * **Poster Presentations, Domestic**
     * Sung, J., Seo, Y., Kim, Y., Kim, H., & **Park, K***. (2023, June 17). Developing multi-class classification model predicting students’ competency level using KoBERT. Presented at The Koreans Society for Educational Technology Conference. Jeju national university. [[link][2]]
 
@@ -46,7 +49,9 @@ English Department
 
     * Reviewing and analyzing the ratification of the UNESCO “Convention against Discrimination in Education” in Korea. Korean National Commission for UNESCO
     * Systemization of higher education qualifications terminology from Korea and abroad and the scope of their application. KCUE (2020.12-2021.4) 
+        * performance: literature review
     * Public attitude towards refugees and its determinants in the Korean society: Multi-phase mixed methods research. NRF (2019.5-2021.10)  
+        * performance: all stages of the research process, including literature review, research design, data collection, and data analysis
     
 * **Undergraduate Research Assistant** (May 2019 – February 2020)  
 **International Migration & Mobility Research Center, HUFS**
@@ -64,7 +69,7 @@ English Department
 
 ## Awards & Merit-based Scholarships 
 
-* **3rd Prize in 2022 Land, Urban Big Data Analysis Competition** (December 2022)  
+* **3rd Prize in 2022 Urban Big Data Analysis Competition** (December 2022)  
 Awarded by Korea Land and Housing Corporation (LH)
 
 * **Academic Excellence Scholatship** (December 2021)  
