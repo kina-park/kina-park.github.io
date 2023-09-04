@@ -23,6 +23,7 @@ categories:
 **4. Results** 
   * The main findings of this study are as follows: cognitive presence, teaching presence, subjective social status, the non-face-to-face interactions between students, the awareness of organizational communication in university, awareness of support for the online learning management system(LMS), and awareness of support for online services and programs were found to predict institutional commitment. 
   * However, there were no moderating effects of ‘being students in the COVID-19 cohort’ on the relationship between educational presence and institutional commitment.  
+  <p align="center"><img src="/assets/images/ic_graph_moderation.png" title="moderation graph"/></p>
 
 **5. Conclusion & Implications** 
   *  Accordingly, this study suggested practical implications to improve institutional commitment in the online learning environment, including support for cognitive presence and teaching presence.

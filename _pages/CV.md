@@ -49,9 +49,9 @@ English Department
 
     * Reviewing and analyzing the ratification of the UNESCO “Convention against Discrimination in Education” in Korea. Korean National Commission for UNESCO
     * Systemization of higher education qualifications terminology from Korea and abroad and the scope of their application. KCUE (2020.12-2021.4) 
-        * performance: literature review
+        * Roles: literature review
     * Public attitude towards refugees and its determinants in the Korean society: Multi-phase mixed methods research. NRF (2019.5-2021.10)  
-        * performance: all stages of the research process, including literature review, research design, data collection, and data analysis
+        * Roles: all stages of the research process, including literature review, research design, data collection, and data analysis
     
 * **Undergraduate Research Assistant** (May 2019 – February 2020)  
 **International Migration & Mobility Research Center, HUFS**
