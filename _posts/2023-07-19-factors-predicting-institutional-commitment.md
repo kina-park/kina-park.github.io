@@ -3,7 +3,8 @@ title: "비대면 교육환경에서 대학생의 대학 몰입 예측요인 탐
 layout: single
 toc: true
 categories: 
-  - Moderated multiple regression
+  - "[논문] Moderated multiple regression"
+breadcrumbs: false
 ---
   
 * This contains a summary of a journal paper which is under review at *Korean Journal of Educational Research* (September 1, 2023). Python code for data anlysis is also presented. 

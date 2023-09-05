@@ -4,7 +4,8 @@ layout: single
 classes: wide
 toc: true
 categories: 
-- Causal inference
+- "[관심분야 공부] Causal inference"
+breadcrumbs: false
 ---
 
 ### 1. 인과추론과 예측 방법론의 차이

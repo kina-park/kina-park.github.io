@@ -3,7 +3,8 @@ title: "[2-1] 잠재적 결과 프레임워크"
 layout: single
 toc: true
 categories: 
-- Causal inference
+- "[관심분야 공부] Causal inference"
+breadcrumbs: false
 ---
 
 ### 1. 잠재적 결과 프레임워크(Potential Outcome Framework)

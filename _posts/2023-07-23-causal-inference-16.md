@@ -3,7 +3,8 @@ title: "[5-2] 디자인 기반의 인과추론에서의 인과 그래프 활용"
 layout: single
 toc: true
 categories: 
-- Causal inference
+- "[관심분야 공부] Causal inference"
+breadcrumbs: false
 ---
 
 ### 1. Structure-Based Research Design

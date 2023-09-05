@@ -2,7 +2,8 @@
 title: "KoBERT를 이용한 학생 역량 점수 분류"
 toc: true
 toc_sticky: true
-categories: NLP
+categories: 
+- "[학회 발표] NLP"
 sidebar_main: true
 toc_label: "Table of Contents"
 toc_icon: "bookmark"

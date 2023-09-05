@@ -3,7 +3,8 @@ title: "[1-2] 인과추론의 어려움과 인과추론의 전략"
 layout: single
 toc: true
 categories: 
-- Causal inference
+- "[관심분야 공부] Causal inference"
+breadcrumbs: false
 ---
 
 ### 1. Everything is Endogenous 

@@ -3,7 +3,8 @@ title: "[2-4] 매칭과 역확률가중치"
 layout: single
 toc: true
 categories: 
-- Causal inference
+- "[관심분야 공부] Causal inference"
+breadcrumbs: false
 ---
 
 ### 1. Regression is analogous to matching, but there are differences

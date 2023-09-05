@@ -3,7 +3,8 @@ title: "[2-3] 인과추론 관점에서의 회귀분석"
 layout: single
 toc: true
 categories: 
-- Causal inference
+- "[관심분야 공부] Causal inference"
+breadcrumbs: false
 ---
 
 ### 1. 어떤 종류의 Selection bias를 다룰 수 있을까?  

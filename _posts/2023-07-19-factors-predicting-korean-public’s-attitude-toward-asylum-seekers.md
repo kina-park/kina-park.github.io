@@ -3,10 +3,12 @@ title: "한국인의 난민에 대한 태도 예측요인 탐색을 위한 다�
 layout: single
 toc: true
 categories: 
-  - Moderated multiple regression
+  - "[논문] Moderated multiple regression"
+breadcrumbs: false
 ---
 
 * This contains a summary of a journal paper: Jon, J.-E., & **Park, K***. (2023). Korean public’s attitude toward asylum seekers: Applying integrated threat theory and contact theory. Journal of Diaspora Studies, 17(1), 145-195.
+
 * Python code for data anlysis is also presented. 
 
 ### Abstract 

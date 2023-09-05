@@ -3,7 +3,8 @@ title: "[3-1] 디자인 기반의 인과추론"
 layout: single
 toc: true
 categories: 
-- Causal inference
+- "[관심분야 공부] Causal inference"
+breadcrumbs: false
 ---
 
 ### 1. Research design matters 

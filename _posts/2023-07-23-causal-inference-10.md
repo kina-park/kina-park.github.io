@@ -3,7 +3,8 @@ title: "[3-4] 가상의 통제집단"
 layout: single
 toc: true
 categories: 
-- Causal inference
+- "[관심분야 공부] Causal inference"
+breadcrumbs: false
 ---
 
 ### 1. Donor pool
