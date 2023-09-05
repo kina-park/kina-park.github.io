@@ -8,7 +8,6 @@ toc: true
 toc_sticky: true
 toc_label: " Table of Contents"
 toc_icon: "bookmark"
-breadcrumbs: false
 --- 
 
 ## Education
@@ -40,7 +39,7 @@ English Department
 * **Conference Presentations, International** 
     * **Park, K**., & Jon, J.-E. (April, 2022). Korean undergraduate students' intent to drop out from higher education institutions in the era of COVID-19: A mixed-methods study. Presented at the Comparative and International Education Society Conference (Online). [[link][3]]
 
-    * Jon, J.-E., & **Park, K**. (April, 2021). Korean public's attitude toward asylum seekers and refugees: Roles of education and gender. Presented at the Comparative and International Education Society Conference (Online). [[link][4]]
+    * Jon, J.-E., & **Park, K**. (April, 2021). ***Korean public's attitude toward asylum seekers and refugees: Roles of education and gender***. Presented at the Comparative and International Education Society Conference (Online). [[link][4]]
 
 
 ## Research Experience
@@ -82,8 +81,8 @@ Awarded by Korea Land and Housing Corporation (LH)
 Software Tool Skills:  Python, R, SPSS 
 
 ## Certificates
-Toeic socred 890 (2023.3.12)  
-Toeic socred 935 (2019.2.10)  
+Toeic scored 890 (2023.3.12)  
+Toeic scored 935 (2019.2.10)  
 Teacher’s Certificate - the Secondary School Teacher (Grade II) of German Language 
 
 

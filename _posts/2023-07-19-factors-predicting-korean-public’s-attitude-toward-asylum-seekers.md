@@ -175,11 +175,6 @@ def moderation_model(df, x_var, m_var, y_var):
     return p.summary()
 ```
 
-    /usr/local/lib/python3.10/dist-packages/ipykernel/ipkernel.py:283: DeprecationWarning: `should_run_async` will not call `transform_cell` automatically in the future. Please pass the result to `transformed_cell` argument and any exception that happen during thetransform in `preprocessing_exc_tuple` in IPython 7.17 and above.
-      and should_run_async(code)
-
-
-
 ```python
 # 회귀분석 예시
 y_list = ["beh_p", "beh_n"]
@@ -1158,86 +1153,6 @@ for y in y_list:
         3.0000 -0.0118 0.0404 -0.2924 0.7701 -0.0910 0.0674
         4.0000 -0.0519 0.0512 -1.0146 0.3107 -0.1522 0.0484
         5.0000 -0.0920 0.0716 -1.2849 0.1994 -0.2324 0.0483
-    
-
-
-    /usr/local/lib/python3.10/dist-packages/ipykernel/ipkernel.py:283: DeprecationWarning: `should_run_async` will not call `transform_cell` automatically in the future. Please pass the result to `transformed_cell` argument and any exception that happen during thetransform in `preprocessing_exc_tuple` in IPython 7.17 and above.
-      and should_run_async(code)
-    <frozen importlib._bootstrap>:914: ImportWarning: APICoreClientInfoImportHook.find_spec() not found; falling back to find_module()
-    <frozen importlib._bootstrap>:914: ImportWarning: _PyDriveImportHook.find_spec() not found; falling back to find_module()
-    <frozen importlib._bootstrap>:914: ImportWarning: _OpenCVImportHook.find_spec() not found; falling back to find_module()
-    <frozen importlib._bootstrap>:914: ImportWarning: _BokehImportHook.find_spec() not found; falling back to find_module()
-    <frozen importlib._bootstrap>:914: ImportWarning: _AltairImportHook.find_spec() not found; falling back to find_module()
-
-
-
-```python
-# DATA LIST FREE/
-#    massmedi   mass_qua   beh_p      .
-# BEGIN DATA.
-#      2.0000     2.0000     2.3185
-#      3.0000     2.0000     2.2505
-#      4.0000     2.0000     2.1824
-#      2.0000     3.0000     2.3332
-#      3.0000     3.0000     2.3086
-#      4.0000     3.0000     2.2840
-#      2.0000     4.0000     2.3478
-#      3.0000     4.0000     2.3667
-#      4.0000     4.0000     2.3856
-# END DATA.
-# GRAPH/SCATTERPLOT=
-#  massmedi WITH     beh_p    BY       mass_qua .
-
-import matplotlib.pyplot as plt
-plt.rc('font', family='NanumBarunGothic')
-
-# 데이터 설정
-massmedi = [2.0000, 3.0000, 4.0000, 2.0000, 3.0000, 4.0000, 2.0000, 3.0000, 4.0000]
-mass_qua = [2.0000, 2.0000, 2.0000, 3.0000, 3.0000, 3.0000, 4.0000, 4.0000, 4.0000]
-beh_p = [2.3185, 2.2505, 2.1824, 2.3332, 2.3086, 2.2840, 2.3478, 2.3667, 2.3856]
-
-# Scatter plot 그리기
-scatter = plt.scatter(massmedi, beh_p, c=mass_qua, cmap='viridis')  # massmedi를 x축으로, beh_p를 y축으로 설정하고, mass_qua에 따라 색상을 다르게 표시
-
-# 선 그래프 그리기 # linestyle ='-.'
-for i in range(len(massmedi) - 1):
-    if mass_qua[i] == 2 and mass_qua[i+1] == 2:  # Connect yellow scatterplot points with yellow line
-        plt.plot([massmedi[i], massmedi[i + 1]], [beh_p[i], beh_p[i + 1]], c='#440154FF', linewidth=2)
-    elif mass_qua[i] == 3 and mass_qua[i+1] == 3:  # Connect green scatterplot points with green line
-        plt.plot([massmedi[i], massmedi[i + 1]], [beh_p[i], beh_p[i + 1]], c='#287C8EFF', linewidth=2)
-    elif mass_qua[i] == 4 and mass_qua[i+1] == 4:  # Connect blue scatterplot points with blue line
-        plt.plot([massmedi[i], massmedi[i + 1]], [beh_p[i], beh_p[i + 1]], c='#FDE725FF', linewidth=2)
-
-
-# 축과 제목 설정
-plt.xlabel('대중매체 접촉 빈도')
-plt.ylabel('긍정적 행동의사')
-plt.title('대중매체 접촉 빈도 X 대중매체 접촉의 질')
-
-# 범례 설정
-plt.colorbar(scatter, ticks=[2, 3, 4], label='대중매체 접촉의 질')  # 범례에 2, 3, 4만 표시
-
-# 그래프 출력
-plt.show()
-
-# 그림으로 저장
-# plt.savefig('/content/drive/MyDrive/Analysis_0602/moderating_graph.png')
-```
-
-    /usr/local/lib/python3.10/dist-packages/ipykernel/ipkernel.py:283: DeprecationWarning: `should_run_async` will not call `transform_cell` automatically in the future. Please pass the result to `transformed_cell` argument and any exception that happen during thetransform in `preprocessing_exc_tuple` in IPython 7.17 and above.
-      and should_run_async(code)
-    <frozen importlib._bootstrap>:914: ImportWarning: APICoreClientInfoImportHook.find_spec() not found; falling back to find_module()
-    <frozen importlib._bootstrap>:914: ImportWarning: _PyDriveImportHook.find_spec() not found; falling back to find_module()
-    <frozen importlib._bootstrap>:914: ImportWarning: _OpenCVImportHook.find_spec() not found; falling back to find_module()
-    <frozen importlib._bootstrap>:914: ImportWarning: _BokehImportHook.find_spec() not found; falling back to find_module()
-    <frozen importlib._bootstrap>:914: ImportWarning: _AltairImportHook.find_spec() not found; falling back to find_module()
-
-
-
-    
-![png](diaspora_analysis_0602_files/diaspora_analysis_0602_9_1.png)
-    
-
 
 
 ```python
@@ -1271,7 +1186,4 @@ plt.legend(list(reversed(lines)), list(reversed(labels)))
 plt.show()
 ```
 
-
-    
-![png](diaspora_analysis_0602_files/diaspora_analysis_0602_10_0.png)
 
