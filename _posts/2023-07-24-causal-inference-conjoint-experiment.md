@@ -5,7 +5,7 @@ toc_sticky: true
 toc_label: "Table of Contents"
 toc_icon: "bookmark"
 categories: 
-- "[인과추론 연구] Conjoint experiment"
+- "[연구 프로젝트] Causal inference in conjoint experiment"
 sidebar_main: true
 breadcrumbs: false
 ---
