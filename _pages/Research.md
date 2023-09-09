@@ -1,6 +1,6 @@
 ---
-layout: archive
+layout: categories
 title: "Research"
-permalink: /teaching/
+permalink: /Research/
 author_profile: true
 ---
