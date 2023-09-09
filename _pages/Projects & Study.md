@@ -1,7 +1,7 @@
 ---
-title: "Posts by Category"
+title: "Projects & Study"
 layout: categories
-permalink: //
+permalink: /Projects&Study/
 author_profile: true
 sidebar_main: true
 ---
