@@ -6,10 +6,14 @@ categories:
   - "[논문] Moderated multiple regression"
 breadcrumbs: false
 ---
+* 아래는 디아스포라연구(KCI  등재)에 게재한 논문을 요약한 내용이다. 분석에 활용한 코드도 함께 제시하였다.
+  * 전재은, 박기나. (2023). 한국인의 난민신청자(asylum seeker)에 대한 태도: 통합위협이론과 접촉이론을 중심으로. 디아스포라연구, 17(1), 145-195.
 
-* This contains a summary of a journal paper: Jon, J.-E., & **Park, K***. (2023). Korean public’s attitude toward asylum seekers: Applying integrated threat theory and contact theory. Journal of Diaspora Studies, 17(1), 145-195.
+* 2018년 제주 예멘 난민 사태로 인해 한국에서 난민 수용에 대한 찬반 논쟁이 불거진 가운데, 
 
-* Python code for data anlysis is also presented. 
+<!-- * This contains a summary of a journal paper: Jon, J.-E., & **Park, K***. (2023). Korean public’s attitude toward asylum seekers: Applying integrated threat theory and contact theory. Journal of Diaspora Studies, 17(1), 145-195.
+
+* Python code for data anlysis is also presented.  -->
 
 ### Abstract 
 
