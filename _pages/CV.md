@@ -28,10 +28,9 @@ English Department
 ## Publications & Presentations
 
 * **Journal papers, Domestic**
-    * Jon, J.-E., & **Park, K***. (2023). Korean public’s attitude toward asylum seekers: Applying integrated threat theory and contact theory. Journal of Diaspora Studies, 17(1), 145-195. [[link][1]] (KCI Accredited Journal)
+    * **Park, K** & Jon, J.-E.* (2023). A study on the predictors of college students’ institutional commitment in online learning environment: Focusing on educational presence. Korean Journal of Educational Research, 61(6), 87-117. [[link][5]] (KCI Excellent Accredited Journal)
 
-* **Manuscripts submitted for publication, Domestic**
-    * **Park, K** & Jon, J.-E.* (2023). A study on the predictors of college students’ institutional commitment in online learning environment: Focusing on educational presence. Korean Journal of Educational Research (KCI Excellent Accredited Journal)
+    * Jon, J.-E., & **Park, K***. (2023). Korean public’s attitude toward asylum seekers: Applying integrated threat theory and contact theory. Journal of Diaspora Studies, 17(1), 145-195. [[link][1]] (KCI Accredited Journal)
 
 * **Poster Presentations, Domestic**
     * Sung, J., Seo, Y., Kim, Y., Kim, H., & **Park, K***. (2023, June 17). Developing multi-class classification model predicting students’ competency level using KoBERT. Presented at The Koreans Society for Educational Technology Conference. Jeju national university. [[link][2]]
@@ -91,4 +90,4 @@ Teacher’s Certificate - the Secondary School Teacher (Grade II) of German Lang
 [2]: https://www.kset.or.kr/conference/66/index.php?hCode=PROGRAM_03_01&program=P
 [3]: https://convention2.allacademic.com/one/cies/cies22/index.php?program_focus=view_paper&selected_paper_id=1917980&cmd=online_program_direct_link&sub_action=online_program#selected_tag 
 [4]: https://convention2.allacademic.com/one/cies/cies21/index.php?program_focus=view_paper&selected_paper_id=1712342&cmd=online_program_direct_link&sub_action=online_program#selected_tag
-
+[5]: https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003009758
