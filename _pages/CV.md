@@ -12,6 +12,9 @@ toc_icon: "bookmark"
 
 ## Education
 
+* **Pohang University of Science and Technology**, Pohang, South Korea (2024 - Present)  
+M.S. in Social Data Science
+
 * **Hankuk University of Foreign Studies**, Seoul, South Korea (2020 - 2022)  
 M.Ed. in Educational Policy
 
